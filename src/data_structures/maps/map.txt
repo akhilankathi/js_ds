@@ -1,0 +1,1 @@
+Defination :  map is a object type of data structure where the key value pairs are given in array and which can be any type 

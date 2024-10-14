@@ -1,0 +1,1 @@
+Defination : set is array type of data structure but it has only uniue values

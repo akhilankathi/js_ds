@@ -1,0 +1,1 @@
+Defination : it is sequencial data structures and which follows Last In First Out 
