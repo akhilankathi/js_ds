@@ -17,6 +17,7 @@ for (let [key, value] of _map) {
 _map.set("d", 4);
 
 // length of map
+console.log(_map);
 console.log("map size", _map.size);
 
 // to delete a particular key value pair
