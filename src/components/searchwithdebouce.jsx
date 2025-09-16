@@ -1,3 +1,7 @@
+// when User trying to search someting , instead of triggering API or function on each onChange , 
+// we trigger when user gives some space or stops typying with some delay , 
+// so if we get that delay we will trigger the API
+
 import { useCallback, useState } from "react"
 
 const debonceFunc = (func, delay) => {
