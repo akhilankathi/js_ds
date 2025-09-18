@@ -3,7 +3,7 @@
 // map has set method to add element and set has add method
 // map is related to obj and set is of array
 
-const _set = new Set([1, 2, "akhi", false]);
+const _set = new Set([1, 2, "akhil", false ,2,3,4,"akhil"]);
 
 for (let key of _set) {
   console.log(key);
@@ -16,9 +16,10 @@ _set.add("d");
 console.log("set size", _set.size);
 
 // to delete a particular key value pair
-_set.delete("a");
+_set.delete(1);
 
 // to clear all items ( delete all items in map )
 _set.clear();
 
-console.log(_set);
+//  convert set to array 
+console.log([..._set]); 

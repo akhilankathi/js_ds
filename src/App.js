@@ -1,3 +1,4 @@
+import { SearchDropdown } from "./components/dropdownwithSearch";
 import { SearchBox } from "./components/searchwithdebouce";
 import { LazyLoadDemo } from "./consepts/lazyLoading";
 import QueueDataStructure from "./data_structures/Queue/funcComp";
@@ -10,7 +11,8 @@ export default function App() {
       {/* <StackDataStructure /> */}
       {/* <QueueDataStructure /> */}
       {/* <LazyLoadDemo/> */}
-      <SearchBox/>
+      {/* <SearchBox/> */}
+      <SearchDropdown/>
     </div>
   );
 }

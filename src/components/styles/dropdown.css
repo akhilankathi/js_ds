@@ -1,0 +1,16 @@
+.dropdown-container{
+ width: 200px;
+ margin: 20px auto;
+ .search-input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+ }
+ .dropdown-list{
+    width: 200px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: 1px solid gray;
+}
+}
+
